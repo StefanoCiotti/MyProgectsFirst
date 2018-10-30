@@ -1,0 +1,5 @@
+library(RODBC)
+c<-odbcConnect('who')
+sqlTables(c)
+who<-sqlFetch(c,'MyFormat')
+odbcClose(c)

@@ -1,0 +1,6 @@
+rm(list = ls())
+v <- c('The', 'rain', 'in', 'Spain')
+df <- data.frame(factors = v, strings = v)
+c(is.character(df$factors), is.character(df$strings))
+df[, 2] <- as.character(df[, 2])
+c(is.character(df$factors), is.character(df$strings))

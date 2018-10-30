@@ -1,0 +1,639 @@
+Order	Family	Species	M	T	BMR
+Artiodactyla 			5088	38.1	13632
+Artiodactyla 	Antilocapridae	Antilocapra americana	37800		9318
+Artiodactyla 	Bovidae	Connochaetes taurinus	196500		41242
+Artiodactyla 	Bovidae	Ovis canadensis	69125		19120
+Artiodactyla 	Cervidae	Alces alces	325000	38.6	51419
+Artiodactyla 	Cervidae	Capreolus capreolus	21500		8308
+Artiodactyla 	Cervidae	Odocoileus virginianus	58588	39	25609
+Artiodactyla 	Tayassuidae	Pecari tajacu	20500	37.5	5945
+Carnivora 			4452	37.5	1244
+Carnivora 	Canidae	Alopex lagopus	3600	38.6	1374
+Carnivora 	Canidae	Canis latrans	10000	37	2687
+Carnivora 	Canidae	Canis mesomelas	7720	38	3860
+Carnivora 	Canidae	Cerdocyon thous	5444	38.2	1524
+Carnivora 	Canidae	Fennecus zerda	1215	38.8	583
+Carnivora 	Canidae	Vulpes macrotis	1769	38	887
+Carnivora 	Canidae	Vulpes vulpes	4440	38.7	2442
+Carnivora 	Canidae	Vulpes vulpes alascensis	4725		2481
+Carnivora 	Felidae	Acinonyx jubatus	37900	39	8982
+Carnivora 	Felidae	Felis concolor	37200	37.6	8842
+Carnivora 	Felidae	Felis pardalis	10500	38	3126
+Carnivora 	Felidae	Felis rufus	9400		4220
+Carnivora 	Felidae	Felis serval	10100	36.5	3137
+Carnivora 	Felidae	Felis wiedii	3600	38	937
+Carnivora 	Felidae	Felis yagouaroundi	8400	38.4	1737
+Carnivora 	Felidae	Panthera leo	98000	37.9	16954
+Carnivora 	Felidae	Panthera onca	50400		11189
+Carnivora 	Felidae	Panthera tigris	137900	37.5	23995
+Carnivora 	Herpestidae	Galerella sanguinea	540	38.7	410
+Carnivora 	Herpestidae	Herpestes javanicus	611	39.8	403
+Carnivora 	Herpestidae	Suricata suricatta	850	36.3	310
+Carnivora 	Hyaenidae	Hyaena hyaena	34300		5728
+Carnivora 	Hyaenidae	Proteles cristatus	8100	36.4	2194
+Carnivora 	Mustelidae	Eira barbara	2950	38.4	1221
+Carnivora 	Mustelidae	Gulo gulo	12700		5694
+Carnivora 	Mustelidae	Lutra lutra	10000	38.1	4500
+Carnivora 	Mustelidae	Martes americana	900	38	595
+Carnivora 	Mustelidae	Martes martes	920		717
+Carnivora 	Mustelidae	Meles meles	11050		2984
+Carnivora 	Mustelidae	Mustela erminea	75	39.6	165
+Carnivora 	Mustelidae	Mustela frenata	225	39	241
+Carnivora 	Mustelidae	Mustela vison	660	39	488
+Carnivora 	Mustelidae	Spilogale putorius	624	36.4	300
+Carnivora 	Mustelidae	Taxidea taxus	9000	38	2700
+Carnivora 	Procyonidae	Ailurus fulgens	5740	37.6	878
+Carnivora 	Procyonidae	Bassariscus sumichrasti	1280	38.8	634
+Carnivora 	Procyonidae	Nasua narica	3670	38.6	1207
+Carnivora 	Procyonidae	Nasua nasua	4000	36.4	992
+Carnivora 	Procyonidae	Potos flavus	2343	36.1	796
+Carnivora 	Procyonidae	Procyon cancrivorus	1160		464
+Carnivora 	Procyonidae	Procyon lotor	5075	38	1599
+Carnivora 	Ursidae	Ursus ursinus	6696		844
+Carnivora 	Viverridae	Arctictis binturong	14280	36.7	2285
+Carnivora 	Viverridae	Arctogalidia trivirgata	2010	36.2	553
+Carnivora 	Viverridae	Fossa fossana	2260	37.9	906
+Carnivora 	Viverridae	Genetta tigrina	1698		747
+Carnivora 	Viverridae	Nandinia binotata	4270	37.4	863
+Carnivora 	Viverridae	Paradoxurus hermaphroditus	3160	36.5	1374
+Chiroptera 			18.8	34.4	25.11
+Chiroptera 	Emballonuridae	Peropteryx macrotis	5	34.4	760
+Chiroptera 	Emballonuridae	Saccopteryx bilineata	7.8	35.5	11.6
+Chiroptera 	Hipposideridae	Hipposideros galeritus	8.5	31.9	14.5
+Chiroptera 	Hipposideridae	Rhinonycteris aurantius	8.27	36.1	9.4
+Chiroptera 	Megadermatidae	Macroderma gigas	148	37	16.2
+Chiroptera 	Molossidae	Eumops perotis	56	32.6	139.1
+Chiroptera 	Molossidae	Molossus molossus	15.6	31.4	39.8
+Chiroptera 	Molossidae	Tadarida brasiliensis	16.9	36	22.5
+Chiroptera 	Mormoopidae	Mormoops blainvilli	8.6	32	20.3
+Chiroptera 	Mormoopidae	Mormoops megalophylla	16.5	36.9	8
+Chiroptera 	Mormoopidae	Pteronotus davyi	9.4	38.8	24.4
+Chiroptera 	Mormoopidae	Pteronotus parnellii	19.2	36.4	15.3
+Chiroptera 	Mormoopidae	Pteronotus personatus	14	37.5	30.7
+Chiroptera 	Mormoopidae	Pteronotus quadridens	4.9	31	23
+Chiroptera 	Natalidae	Natalus tumidirostris	5.4	32.2	6.1
+Chiroptera 	Noctilionidae	Noctilio albiventris	27	32	8.3
+Chiroptera 	Noctilionidae	Noctilio leporinus	61	33.8	31.6
+Chiroptera 	Phyllostomidae	Anoura caudifera	11.5	36.5	70.8
+Chiroptera 	Phyllostomidae	Artibeus fimbriatus	63.9		42.7
+Chiroptera 	Phyllostomidae	Artibeus jamaicensis	45.2	36.4	78
+Chiroptera 	Phyllostomidae	Artibeus lituratus	70.1	37.3	76.8
+Chiroptera 	Phyllostomidae	Carollia perspicillata	14.9	36.4	108
+Chiroptera 	Phyllostomidae	Chiroderma doriae	19.9		43.1
+Chiroptera 	Phyllostomidae	Chrotopterus auritus	96.1	37.2	31.1
+Chiroptera 	Phyllostomidae	Desmodus rotundus	29.4	35	141.3
+Chiroptera 	Phyllostomidae	Diaemus youngi	36.6	31.1	34.7
+Chiroptera 	Phyllostomidae	Diphylla ecaudata	27.8	32.4	37.3
+Chiroptera 	Phyllostomidae	Erophylla bombifrons	16.1	32	38.6
+Chiroptera 	Phyllostomidae	Glossophaga soricina	9.6	35.5	17.7
+Chiroptera 	Phyllostomidae	Koopmania concolor	19.7	35.3	29.4
+Chiroptera 	Phyllostomidae	Leptonycteris curasoae	22	35.7	39.8
+Chiroptera 	Phyllostomidae	Macrotus californicus	11.7	35	44
+Chiroptera 	Phyllostomidae	Monophyllus redmani	8.7	34	14.6
+Chiroptera 	Phyllostomidae	Phyllostomus discolor	33.5	34.6	11.1
+Chiroptera 	Phyllostomidae	Phyllostomus elongatus	35.6		47.9
+Chiroptera 	Phyllostomidae	Phyllostomus hastatus	84.2	34.7	38.8
+Chiroptera 	Phyllostomidae	Platyrrhinus lineatus	21.9	36.4	100.2
+Chiroptera 	Phyllostomidae	Rhinophylla fischerae	9.5		44.9
+Chiroptera 	Phyllostomidae	Rhinophylla pumilio	9.5	34.7	16.2
+Chiroptera 	Phyllostomidae	Sturnia tildae	20.5		18.6
+Chiroptera 	Phyllostomidae	Sturnira lilium	21.9	36.4	39.9
+Chiroptera 	Phyllostomidae	Tonatia bidens	27.4	37	53.2
+Chiroptera 	Phyllostomidae	Uroderma bilobatum	16.2	35.1	55.1
+Chiroptera 	Phyllostomidae	Vampyressa pusilla	8.8		31.6
+Chiroptera 	Pteropodidae	Cynopterus brachyotis	37.4	36.5	18.6
+Chiroptera 	Pteropodidae	Dobsonia anderseni	241.4	36.4	47.5
+Chiroptera 	Pteropodidae	Dobsonia minor	73.7	36.5	174
+Chiroptera 	Pteropodidae	Dobsonia moluccensis	404.3	36.8	74.4
+Chiroptera 	Pteropodidae	Dobsonia praedatrix	179.5	37.1	367.9
+Chiroptera 	Pteropodidae	Eonycteris spelaea	51.6	34	142.5
+Chiroptera 	Pteropodidae	Macroglossus minimus	15.9	36.2	48
+Chiroptera 	Pteropodidae	Megaloglossus woermanni	12.4		18.5
+Chiroptera 	Pteropodidae	Melonycteris melanops	53.3	34.9	21.7
+Chiroptera 	Pteropodidae	Nyctimene albiventer	30.9	35.9	43.3
+Chiroptera 	Pteropodidae	Nyctimene cyclotis	40.4	36	27.3
+Chiroptera 	Pteropodidae	Nyctimene major	13.6	33	64.6
+Chiroptera 	Pteropodidae	Paranyctimene raptor	23.6	33.8	20.4
+Chiroptera 	Pteropodidae	Pteropus giganteus	562.2	36.7	24.5
+Chiroptera 	Pteropodidae	Pteropus hypomelanus	520.8	35.7	290.7
+Chiroptera 	Pteropodidae	Pteropus poliocephalus	598	36.5	290.1
+Chiroptera 	Pteropodidae	Pteropus pumilus	194.2	36.1	316.9
+Chiroptera 	Pteropodidae	Pteropus rodricensis	254.5	36.5	126.4
+Chiroptera 	Pteropodidae	Pteropus scapulatus	362	37	134.9
+Chiroptera 	Pteropodidae	Pteropus vampyrus	1024.3	36.9	242.5
+Chiroptera 	Pteropodidae	Rousettus aegyptiacus	146	34.8	804.1
+Chiroptera 	Pteropodidae	Rousettus amplexicaudatus	91.5	36.5	122.6
+Chiroptera 	Pteropodidae	Syconycteris australis	15.9	35.9	104.3
+Chiroptera 	Vespertilionidae	Antrozous pallidus	22		21.9
+Chiroptera 	Vespertilionidae	Chalinolobus gouldii	17.5	31.1	18.7
+Chiroptera 	Vespertilionidae	Eptesicus fuscus	10.4	36	25.2
+Chiroptera 	Vespertilionidae	Histiotus velatus	11.2	30.5	20.8
+Chiroptera 	Vespertilionidae	Miniopterus gigas australis?	107.2	35.6	15.7
+Chiroptera 	Vespertilionidae	Miniopterus schreibersi	10.91	37.7	94.3
+Chiroptera 	Vespertilionidae	Myotis lucifuga	5.2	37	26
+Chiroptera 	Vespertilionidae	Myotis nigricans	3.7		8.9
+Chiroptera 	Vespertilionidae	Nyctophilus geoffroyi	8	31.6	4.8
+Chiroptera 	Vespertilionidae	Plecotus auritus	10.25		11.2
+Hyracoidea 			2215	37.4	783.19
+Hyracoidea 	Procaviidae	Heterohyrax brucei	2000	36.7	720
+Hyracoidea 	Procaviidae	Dendrohyrax dorsalis	2210		751
+Hyracoidea 	Procaviidae	Procavia capensis	2400	37	660
+Hyracoidea 	Procaviidae	Procavia habessinica	2250	38	900
+Hyracoidea 	Procaviidae	Procavia johnstoni	2750	39	1179
+Insectivora 			54.3	35.1	60.43
+Insectivora 	Chrysochloridae	Amblysomus hottentotus	70		84.7
+Insectivora 	Chrysochloridae	Chrysochloris asiatica	44	34	51.5
+Insectivora 	Chrysochloridae	Eremitalpa granti namibensis	20	33.6	10
+Insectivora 	Erinaceidae	Atelerix albiventris	450	35.2	148.5
+Insectivora 	Erinaceidae	Echinosorex gymnura	721.2	36.3	504.8
+Insectivora 	Erinaceidae	Erinaceus concolor	822.7	35.2	347.2
+Insectivora 	Erinaceidae	Erinaceus europaeus	750	34	337.5
+Insectivora 	Erinaceidae	Hemiechinus auritus	400	33.8	152
+Insectivora 	Erinaceidae	Hylomys suillus	57.8	37.3	60.1
+Insectivora 	Erinaceidae	Paraechinus aethiopicus	450	34.2	112.5
+Insectivora 	Soricidae	Blarina brevicaudata	20.5	38.3	65.6
+Insectivora 	Soricidae	Blarina carolinensis	10.2	36.8	33.7
+Insectivora 	Soricidae	Crocidura crossei	10.2	34.3	22.4
+Insectivora 	Soricidae	Crocidura flavescens	33.2		44.5
+Insectivora 	Soricidae	Crocidura hildegardeae	10	35.7	26
+Insectivora 	Soricidae	Crocidura leucodon	11.7		29.8
+Insectivora 	Soricidae	Crocidura luna	11.8	34.8	24.8
+Insectivora 	Soricidae	Crocidura olivieri	38.9	35.3	58.4
+Insectivora 	Soricidae	Crocidura poensis	17.3	35.5	31.1
+Insectivora 	Soricidae	Crocidura russula	10.4	34.7	22.9
+Insectivora 	Soricidae	Crocidura suaveolens	6.5	35.1	18.9
+Insectivora 	Soricidae	Crocidura viaria	14.7	34.5	22.1
+Insectivora 	Soricidae	Cryptotis parva	6.2	37	19.2
+Insectivora 	Soricidae	Neomys anomalus	13.1		66.8
+Insectivora 	Soricidae	Neomys fodiens	17.1	37.3	54.7
+Insectivora 	Soricidae	Notiosorex crawfordi	4	37.6	13.2
+Insectivora 	Soricidae	Sorex alpinus	7.9	38.6	48.2
+Insectivora 	Soricidae	Sorex araneus	8.05		60.2
+Insectivora 	Soricidae	Sorex cinereus	3.5	38.4	31.5
+Insectivora 	Soricidae	Sorex coronatus	9.1	37.6	51.9
+Insectivora 	Soricidae	Sorex minutus	4	38.5	30.8
+Insectivora 	Soricidae	Sorex ornatus	9.7		52.3
+Insectivora 	Soricidae	Sorex vagrans	5.2	38	28.1
+Insectivora 	Soricidae	Suncus etruscus	2.4	36	14.4
+Insectivora 	Soricidae	Suncus murinus	30.2	38.7	59.5
+Insectivora 	Talpidae	Condylura cristata	49	37.7	110.3
+Insectivora 	Talpidae	Neurotrichus gibbsii	11.8	38.4	46.5
+Insectivora 	Talpidae	Scalopus aquaticus	48	36	67.7
+Insectivora 	Talpidae	Scapanus latimanus	61		76.2
+Insectivora 	Talpidae	Scapanus orarius	61.2		64.1
+Insectivora 	Talpidae	Scapanus townsendii	130.1		108.9
+Insectivora 	Tenrecidae	Echinops telfari	116.4		133.9
+Insectivora 	Tenrecidae	Geogale aurita	6.9	30.8	7.7
+Insectivora 	Tenrecidae	Hemicentetes nigriceps	101.9		72.5
+Insectivora 	Tenrecidae	Hemicentetes semispinosus	133		64.1
+Insectivora 	Tenrecidae	Limnogale mergulus	77.7		55.9
+Insectivora 	Tenrecidae	Microgale cowani	12.2	33	32
+Insectivora 	Tenrecidae	Microgale dobsoni	44.6	30.9	56.4
+Insectivora 	Tenrecidae	Microgale talazaci	44	30.8	43.6
+Insectivora 	Tenrecidae	Setifer setosus	530	32.2	121.9
+Insectivora 	Tenrecidae	Tenrec ecaudatus	650	33	130.7
+Lagomorpha 			420.3	39.4	427.99
+Lagomorpha 	Leporidae	Lepus alleni	3000	37.9	1650
+Lagomorpha 	Leporidae	Lepus americanus	1581	39.8	1518
+Lagomorpha 	Leporidae	Lepus arcticus	3004.4	38.9	1082
+Lagomorpha 	Leporidae	Lepus californicus	2300	39.2	1311
+Lagomorpha 	Leporidae	Lepus timidus	3025	39.7	2118
+Lagomorpha 	Leporidae	Lepus townsendii	2430	38.2	1264
+Lagomorpha 	Leporidae	Oryctolagus cuniculus	2000	39	1140
+Lagomorpha 	Leporidae	Sylvilagus audubonii	672.4	38.3	438
+Lagomorpha 	Ochotonidae	Ochotona princeps	109	40.1	167
+Lagomorpha 	Ochotonidae	Ochotona dauurica	127.7		249
+Macroscelidea 			73.9	37	79.26
+Macroscelidea 	Macroscelididae	Elephantulus brachyrhynchus	45.3	37.5	43.7
+Macroscelidea 	Macroscelididae	Elephantulus edwardii	50	37.6	54.5
+Macroscelidea 	Macroscelididae	Elephantulus intufi	46.49	37.2	52
+Macroscelidea 	Macroscelididae	Elephantulus myurus	62.97	36.9	66.3
+Macroscelidea 	Macroscelididae	Elephantulus rozeti	45.31	37.1	47.8
+Macroscelidea 	Macroscelididae	Elephantulus rufescens	53	37.3	56.9
+Macroscelidea 	Macroscelididae	Macroscelides proboscideus	39	36.2	52.3
+Macroscelidea 	Macroscelididae	Petrodromus tetradactylus	206.11	37.5	179.5
+Pholidota 			3433	32.9	565.71
+Pholidota 	Manidae	Manis crassicaudata	15910	33.4	1241
+Pholidota 	Manidae	Manis javanica	4220	32.3	1106
+Pholidota 	Manidae	Manis tetradactyla	1430	33	229
+Pholidota 	Manidae	Manis pentadactyla	3637.5	33.4	668
+Pholidota 	Manidae	Manis tricuspis	1365	32.6	276
+Primates 			957.4	36.4	444.24
+Primates 	Callitrichidae	Callithrix jacchus	190		152
+Primates 	Callitrichidae	Cebuella pygmaea	116.8		117
+Primates 	Callitrichidae	Saguinus geoffroyi	225		234
+Primates 	Cebidae	Alouatta palliata	4670		2055
+Primates 	Cebidae	Aotus trivirgatus	820	38	442
+Primates 	Cebidae	Saimiri sciureus	875	38	801
+Primates 	Cercopithecidae	Cercopithecus mitis	8500	37.5	3392
+Primates 	Cercopithecidae	Colobus guereza	10450	37	2978
+Primates 	Cercopithecidae	Erythrocebus patas	3000	39.3	1068
+Primates 	Cercopithecidae	Papio anubis	9500	37.3	2778
+Primates 	Cercopithecidae	Papio ursinus	16900	37	5147
+Primates 	Cheirogaleidae	Cheirogaleus medius	300	38	195
+Primates 	Indriidae	Propithecus verreauxi	3350		670
+Primates 	Lemuridae	Eulemur fulvus	2330	36.5	746
+Primates 	Lorisidae	Arctocebus calabarensis	206		131
+Primates 	Lorisidae	Euoticus elegantulus	261.5		216
+Primates 	Lorisidae	Galago moholi	170		51
+Primates 	Lorisidae	Galago senegalensis	171.5	37.9	137
+Primates 	Lorisidae	Galagoides demidoff	63.8		59
+Primates 	Lorisidae	Loris tardigradus	284	35.5	128
+Primates 	Lorisidae	Nycticebus coucang	1160	35.4	273
+Primates 	Lorisidae	Otolemur crassicaudatus	950		412
+Primates 	Lorisidae	Otolemur garnettii	1314		704
+Primates 	Lorisidae	Perodicticus potto	964	36.1	327
+Primates 	Tarsiidae	Tarsius syrichta	113	33.8	77
+Primates 	Tarsiidae	Tarsius spectrum	173		149
+Rodentia 			580.7	36.7	325.07
+Rodentia 	Agoutidae	Agouti paca	9156	37.2	2746.8
+Rodentia 	Aplodontidae	Aplodontia rufa	630	38	277.2
+Rodentia 	Bathyergidae	Bathyergus janetta	406	34.7	215.2
+Rodentia 	Bathyergidae	Bathyergus suillus	620	35.3	303.8
+Rodentia 	Bathyergidae	Cryptomys bocagei	94	33.7	69.6
+Rodentia 	Bathyergidae	Cryptomys damarensis	138	35.2	78.7
+Rodentia 	Bathyergidae	Cryptomys darlingi	60	33.3	58.8
+Rodentia 	Bathyergidae	Cryptomys hottentotus	75	34.4	67.5
+Rodentia 	Bathyergidae	Cryptomys hottentotus amatus	79.5	35	55.5
+Rodentia 	Bathyergidae	Cryptomys hottentotus natalensis	102		81.6
+Rodentia 	Bathyergidae	Cryptomys mechowi	267	34	160.2
+Rodentia 	Bathyergidae	Georychus capensis	195	36.4	115.7
+Rodentia 	Bathyergidae	Heliophobius argentocinereus	88	35.1	74.8
+Rodentia 	Bathyergidae	Heterocephalus glaber	32	32.1	20.5
+Rodentia 	Capromyidae	Capromys pilorides	2630	35.7	604.9
+Rodentia 	Capromyidae	Geocapromys ingrahami	775		265.8
+Rodentia 	Capromyidae	Geocapromys brownii	2456		736.8
+Rodentia 	Caviidae	Cavia porcellus	629	39	346
+Rodentia 	Caviidae	Dolichotis salinicola	1613	38.4	725.9
+Rodentia 	Caviidae	Galea musteloides	322	37.3	264
+Rodentia 	Caviidae	Kerodon ruprestris	801	38.2	360.5
+Rodentia 	Caviidae	Microcavia niata	255		175.7
+Rodentia 	Chinchillidae	Chinchilla laniger	426	35.7	200.2
+Rodentia 	Chinchillidae	Lagostomus maximus	6784	36.8	1899.5
+Rodentia 	Ctenomyidae	Ctenomys australis	340	37.3	116.6
+Rodentia 	Ctenomyidae	Ctenomys fulvus	300	36.2	189
+Rodentia 	Ctenomyidae	Ctenomys maulinus	215	36.2	187.1
+Rodentia 	Ctenomyidae	Ctenomys opimus	214	36	109.7
+Rodentia 	Ctenomyidae	Ctenomys peruanus	490	35.2	220.5
+Rodentia 	Ctenomyidae	Ctenomys talarum	121	36.1	109.6
+Rodentia 	Dasyproctidae	Dasyprocta azarae	3849	37.5	1886
+Rodentia 	Dasyproctidae	Dasyprocta leporina	2687	38.3	1558.5
+Rodentia 	Dasyproctidae	Myoprocta acouchy	914	35.4	502.7
+Rodentia 	Dipodidae	Dipus sagitta?	160	36.8	121.2
+Rodentia 	Dipodidae	Jaculus jaculus	75	37.5	92.3
+Rodentia 	Dipodidae	Jaculus orientalis	139	37	139
+Rodentia 	Dipodidae	Napaeozapus insignis	22	37	39.6
+Rodentia 	Dipodidae	Sicista betulina	10		32
+Rodentia 	Dipodidae	Zapus hudsonicus	23.8	37.3	35.7
+Rodentia 	Echimyidae	Proechimys semispinosus	498	37.9	313.7
+Rodentia 	Echimyidae	Thrichomys apereoides	323	37.6	206.7
+Rodentia 	Erethizontidae	Coendou prehensilis	3280	36.7	918.4
+Rodentia 	Erethizontidae	Erethizon dorsatum	11136		2784
+Rodentia 	Geomyidae	Geomys bursaris	197	35	137.9
+Rodentia 	Geomyidae	Geomys pinetis	173	36.3	133.2
+Rodentia 	Geomyidae	Thomomys bottae	143	36	120.1
+Rodentia 	Geomyidae	Thomomys talpoides	106.8	36.2	142
+Rodentia 	Geomyidae	Thomomys umbrinus	85	34.6	72.3
+Rodentia 	Heteromyidae	Chaetodipus baileyi	29.1	32.5	34.5
+Rodentia 	Heteromyidae	Chaetodipus californicus	22	38	21.3
+Rodentia 	Heteromyidae	Chaetodipus fallax	19.6	32.6	26.9
+Rodentia 	Heteromyidae	Chaetodipus hispidus	39.5	36.8	49.4
+Rodentia 	Heteromyidae	Chaetodipus intermedius	15	36	17.9
+Rodentia 	Heteromyidae	Chaetodipus penicillatus	16		22.4
+Rodentia 	Heteromyidae	Dipodomys agilis	60.6	37	63.6
+Rodentia 	Heteromyidae	Dipodomys deserti	106	36.8	92.2
+Rodentia 	Heteromyidae	Dipodomys heermanni	63.3		73.2
+Rodentia 	Heteromyidae	Dipodomys merriami	36.5	37	42.5
+Rodentia 	Heteromyidae	Dipodomys microps	57.2	35	66.9
+Rodentia 	Heteromyidae	Dipodomys nitratoides	37.8		46.1
+Rodentia 	Heteromyidae	Dipodomys ordii	46.8	34.6	64.2
+Rodentia 	Heteromyidae	Dipodomys panamintinus	64.2	36.9	74.3
+Rodentia 	Heteromyidae	Heteromys anomalus	69.3	36	100.5
+Rodentia 	Heteromyidae	Heteromys desmarestianus	75.8	33.8	99.1
+Rodentia 	Heteromyidae	Liomys irroratus	48.1	37	53.9
+Rodentia 	Heteromyidae	Liomys salvani	43.8	37	46.9
+Rodentia 	Heteromyidae	Microdipodops megacephalus	11	32.8	30.2
+Rodentia 	Heteromyidae	Microdipodops pallidus	15.2	39.3	19.8
+Rodentia 	Heteromyidae	Perognathus flavus	8.3	34.6	17.3
+Rodentia 	Heteromyidae	Perognathus longimembris	8.9	34.7	9.5
+Rodentia 	Hydrochaeridae	Hydrochaeris hydrochaeris	26385	37.1	6596.3
+Rodentia 	Hystricidae	Hystrix africaeaustralis	11300	37.5	2361.7
+Rodentia 	Muridae	Abrothrix lanosus	24		45.6
+Rodentia 	Muridae	Abrothrix longipilis	42.3	37.4	57.5
+Rodentia 	Muridae	Acomys cahirinus	42	37.5	46.2
+Rodentia 	Muridae	Acomys russatus	55.55	37.3	42.9
+Rodentia 	Muridae	Acomys spinosissimus	27.02		44.1
+Rodentia 	Muridae	Acomys subspinosus	32.25		83.4
+Rodentia 	Muridae	Aethomys namaquensis	64.2	36.8	56.8
+Rodentia 	Muridae	Akodon albiventer	31		46.5
+Rodentia 	Muridae	Akodon azarae	24	37.7	40.8
+Rodentia 	Muridae	Alticola argentatus	37.7		121
+Rodentia 	Muridae	Apodemus flavicollis	23.9	36.7	43.3
+Rodentia 	Muridae	Apodemus hermonensis	20.5	37	50
+Rodentia 	Muridae	Apodemus mystacinus	40.4	35.5	56
+Rodentia 	Muridae	Apodemus sylvaticus	23.9	36.7	43.3
+Rodentia 	Muridae	Arborimus longicaudus	21.8	37.3	58.9
+Rodentia 	Muridae	Arvicola terrestris	92	37.5	106.7
+Rodentia 	Muridae	Auliscomys micropus	62.3	37.4	97.8
+Rodentia 	Muridae	Baiomys taylori	7.15	36	17.1
+Rodentia 	Muridae	Calomys ducilla?	16		28.8
+Rodentia 	Muridae	Calomys musculinus	16.9	36.2	27.6
+Rodentia 	Muridae	Calomys venustus	50.1	37.1	74.7
+Rodentia 	Muridae	Cannomys badius	344	36	172
+Rodentia 	Muridae	Chelemys macronyx	62	36.8	84.3
+Rodentia 	Muridae	Chionomys nivalis	32.8		81
+Rodentia 	Muridae	Chroeomys anadinus	34.6	37.7	64.7
+Rodentia 	Muridae	Chroeomys olivaceus	27	37.2	49.4
+Rodentia 	Muridae	Cleithrionomys glareolus	23.4		63.4
+Rodentia 	Muridae	Cleithrionomys rufocanus	27		59.4
+Rodentia 	Muridae	Cleithrionomys rutilus	28		77
+Rodentia 	Muridae	Clethrionomys californicus	18.3	37.5	61.1
+Rodentia 	Muridae	Clethrionomys gapperi	22.3	37.9	49.3
+Rodentia 	Muridae	Conilurus penicillatus	213.2		162.7
+Rodentia 	Muridae	Cricetomys gambianus	1870	35.6	1140.7
+Rodentia 	Muridae	Cricetulus migratorius	30.7	38.1	43.9
+Rodentia 	Muridae	Cricetus cricetus	362	39.5	231.7
+Rodentia 	Muridae	Desmodillus auricularis	71.93	35.9	87.8
+Rodentia 	Muridae	Dicrostonyx groenlandicus	59.62	38.4	98.8
+Rodentia 	Muridae	Eligmodontia typus	17.5	36.4	29.9
+Rodentia 	Muridae	Euneomys chinchilloides	65.4		84.4
+Rodentia 	Muridae	Gerbillurus paeba	33.9	38.7	34.8
+Rodentia 	Muridae	Gerbillurus setzeri	46.1	37.6	37
+Rodentia 	Muridae	Gerbillurus tytonis	29.9	36.9	31.7
+Rodentia 	Muridae	Gerbillurus vallinus	38.8	37.4	34.8
+Rodentia 	Muridae	Gerbillus allenybi	35.3	36.3	38.8
+Rodentia 	Muridae	Gerbillus dasyurus	27.6	38.6	29.3
+Rodentia 	Muridae	Gerbillus gerbillus	29.7	37.2	42.5
+Rodentia 	Muridae	Gerbillus nanus	28.4	38.8	22.2
+Rodentia 	Muridae	Gerbillus perpallidus	52.4		43.5
+Rodentia 	Muridae	Gerbillus pusillus	12.6	34.6	13.5
+Rodentia 	Muridae	Gerbillus pyramidum	108.5	36.1	81.4
+Rodentia 	Muridae	Graomys griseoflavus	69.4	36.1	84
+Rodentia 	Muridae	Hydromys chrysogaster	900	36.6	528.3
+Rodentia 	Muridae	Isthmomys pirrensis	137.9	37.6	121.4
+Rodentia 	Muridae	Lagurus curtatus	30.3	37.1	50.3
+Rodentia 	Muridae	Lemmus lemmus	80	37.8	192
+Rodentia 	Muridae	Lemmus sibericus	50.2	38.3	90.2
+Rodentia 	Muridae	Lemniscomys griselda	47.5	36.9	57.6
+Rodentia 	Muridae	Lemniscomys rosalia	50.53	36.5	61.5
+Rodentia 	Muridae	Malacothrix typica	21.7	37	20.6
+Rodentia 	Muridae	Maresomys boliviensis	76.8	36.3	110.6
+Rodentia 	Muridae	Mastomys natalensis	41.5	38	32.8
+Rodentia 	Muridae	Megadontomys thomasi	110.8	37.8	124.1
+Rodentia 	Muridae	Meriones hurriane	69	36.1	54.5
+Rodentia 	Muridae	Meriones tristrami	112	36.5	98.6
+Rodentia 	Muridae	Meriones unguiculatus	67	38.2	77.1
+Rodentia 	Muridae	Mesocricetus auratus	98	38.1	147
+Rodentia 	Muridae	Micromys minutus	7.37	38	21.1
+Rodentia 	Muridae	Microtus agrestis	28	37.6	63.6
+Rodentia 	Muridae	Microtus arvalis	20	37	62
+Rodentia 	Muridae	Microtus brandti	40.2	36.2	76.8
+Rodentia 	Muridae	Microtus breweri	53.1	37.3	73.8
+Rodentia 	Muridae	Microtus californicus	44	38.8	68.2
+Rodentia 	Muridae	Microtus guentheri	43.8	38.3	80.2
+Rodentia 	Muridae	Microtus longicaudus	28.6	38	67.5
+Rodentia 	Muridae	Microtus mexicanus	28.8	37.9	46.9
+Rodentia 	Muridae	Microtus montanus 	35.1	35.3	83.3
+Rodentia 	Muridae	Microtus ochrogaster	46.7	37.9	79.1
+Rodentia 	Muridae	Microtus oeconomus	33.7	38.4	100.9
+Rodentia 	Muridae	Microtus pennsylvanicus	38.9	38.5	75.1
+Rodentia 	Muridae	Microtus pinetorum	25.5	38.3	58.4
+Rodentia 	Muridae	Microtus richardsoni	65.65	38.7	128
+Rodentia 	Muridae	Microtus subterraneus	17.8		49.5
+Rodentia 	Muridae	Microtus townsendii	52.2		90.4
+Rodentia 	Muridae	Microtus xanthognathus	68.5	38	98.6
+Rodentia 	Muridae	Millardia meltada	67.4		58.6
+Rodentia 	Muridae	Mus minutoides	8.06	36.3	24
+Rodentia 	Muridae	Mus spretus	21.8		61.9
+Rodentia 	Muridae	Myopus schisticolor	26.4	39	93.5
+Rodentia 	Muridae	Mystromys albicaudatus	93.78	33	126.8
+Rodentia 	Muridae	Nannospalax ehrenbergi 2n = 52	138	34.9	118.7
+Rodentia 	Muridae	Nannospalax ehrenbergi 2n = 54	134	35.8	101.8
+Rodentia 	Muridae	Nannospalax ehrenbergi 2n = 58	135	36	114.8
+Rodentia 	Muridae	Nannospalax ehrenbergi 2n = 60	134	35.5	82.8
+Rodentia 	Muridae	Nannospalax leucodon	201	36.3	148.7
+Rodentia 	Muridae	Neofiber alleni	258.1	37.1	216.8
+Rodentia 	Muridae	Neotoma albigula	183		134.5
+Rodentia 	Muridae	Neotoma cinerea	205.1		168.6
+Rodentia 	Muridae	Neotoma fuscipes	187	36.6	147.7
+Rodentia 	Muridae	Neotoma lepida	110	36.8	86.9
+Rodentia 	Muridae	Notomys alexis	32.3	38	45.2
+Rodentia 	Muridae	Notomys cervinus	34.2	38.5	41.7
+Rodentia 	Muridae	Ochrotomys nuttalli	19.5	36.4	27.1
+Rodentia 	Muridae	Oligoryzomys longicaudatus	28.2	37.3	51
+Rodentia 	Muridae	Ondatra zibethicus	1004.6	37.4	642.9
+Rodentia 	Muridae	Onychomys torridus	19.1		29.6
+Rodentia 	Muridae	Otomys irroratus	102	37.6	84.9
+Rodentia 	Muridae	Otomys sloggetti	113.29	38	133.7
+Rodentia 	Muridae	Otomys unisulcatus	96	34.8	106.6
+Rodentia 	Muridae	Oxymycterus roberti	83.5	38.3	91
+Rodentia 	Muridae	Parotomys brantsii	86.5	35.1	83.9
+Rodentia 	Muridae	Peromyscus boylii	23.2		54.3
+Rodentia 	Muridae	Peromyscus californicus	47.6	36.4	52.4
+Rodentia 	Muridae	Peromyscus c. insignis	45.5	36	45.5
+Rodentia 	Muridae	Peromyscus c. parasiticus	49.6	36.4	58
+Rodentia 	Muridae	Peromyscus crinitus	15.9	35.7	25.1
+Rodentia 	Muridae	Peromyscus eremicus	21.5	36.6	33.1
+Rodentia 	Muridae	Peromyscus gossypinus	21.5	37.5	37
+Rodentia 	Muridae	Peromyscus leucopus	20	36.7	33.2
+Rodentia 	Muridae	Peromyscus l. noveboracensis	26	37.5	57.2
+Rodentia 	Muridae	Peromyscus maniculatus	22.8	36.6	36.9
+Rodentia 	Muridae	Peromyscus m.artemisidae	23.19	37.2	46.1
+Rodentia 	Muridae	Peromyscus m. austerus	19.53	36.3	39.8
+Rodentia 	Muridae	Peromyscus m. gambeli	19.1	36.8	39
+Rodentia 	Muridae	Peromyscus m. nebrascensis	18.93	35.9	39.4
+Rodentia 	Muridae	Peromyscus m. sonoriensis	20.38	36.7	37.5
+Rodentia 	Muridae	Peromyscus megalops	66.2		90.7
+Rodentia 	Muridae	Peromyscus oreas	24.58	36.2	43.5
+Rodentia 	Muridae	Peromyscus polionotus	12		21.5
+Rodentia 	Muridae	Peromyscus sitkensis	28.3	36	46.7
+Rodentia 	Muridae	Peromyscus truei gilberti	33.3	36.4	62.6
+Rodentia 	Muridae	Peromyscus truei truei	33.2	36.7	50.8
+Rodentia 	Muridae	Phenacomys intermedius	21.5	37.9	67.3
+Rodentia 	Muridae	Phodopus sungorus	25.7	36.1	40.9
+Rodentia 	Muridae	Phyllotis darwini chilensis	49		65.7
+Rodentia 	Muridae	Phyllotis darwini darwini	59	36.2	71.4
+Rodentia 	Muridae	Phyllotis darwini rupestris	36	37.1	45.4
+Rodentia 	Muridae	Phyllotis magister	62.8		69
+Rodentia 	Muridae	Phyllotis xanthopygus	55	37.3	56.7
+Rodentia 	Muridae	Podomys floridanus	30.8		51.7
+Rodentia 	Muridae	Pseudomys gracilicaudatus	79.8	36.8	83.8
+Rodentia 	Muridae	Pseudomys hermannsburgensis	12.2	37.8	23.3
+Rodentia 	Muridae	Rattus colletti	165.7		123
+Rodentia 	Muridae	Rattus fuscipes	76	37.5	84.4
+Rodentia 	Muridae	Rattus lutreolis	109	36.7	63.2
+Rodentia 	Muridae	Rattus sordidus	187		106.6
+Rodentia 	Muridae	Rattus villosissimus	250.6	35.9	145.8
+Rodentia 	Muridae	Reithrodon auritus	78.7		76.8
+Rodentia 	Muridae	Reithrodontomys megalotis	9	36.8	22.5
+Rodentia 	Muridae	Rhabdomys pumilio	39.6	37	32.1
+Rodentia 	Muridae	Saccostomus campestris	61.3	35.3	51.5
+Rodentia 	Muridae	Scotinomys teguina	12	37.6	31.2
+Rodentia 	Muridae	Scotinomys xerampelinus	15.2	36.2	31.9
+Rodentia 	Muridae	Sekeetamys calurus	56.9	37.5	44.4
+Rodentia 	Muridae	Sigmodon alleni	137.8		203.3
+Rodentia 	Muridae	Sigmodon fulviventer	137.8		207.4
+Rodentia 	Muridae	Sigmodon hispidus	139.3	38.1	230.4
+Rodentia 	Muridae	Sigmodon leucotis	128.6		186.5
+Rodentia 	Muridae	Sigmodon ochrognathus	115.1		154.2
+Rodentia 	Muridae	Steatomys pratensis	37.54	34.1	18.8
+Rodentia 	Muridae	Stochomys longicaudatus	84.2		97.5
+Rodentia 	Muridae	Tachyoryctes splendens	191	35.9	150.9
+Rodentia 	Muridae	Tatera afra	106.5	34	182.1
+Rodentia 	Muridae	Tatera indica	87		75.7
+Rodentia 	Muridae	Tatera leucogaster	157.62	35.1	132.6
+Rodentia 	Muridae	Thallomys paedulcus	132.4	36.7	87.3
+Rodentia 	Muridae	Uromys caudimaculatus	812		570.8
+Rodentia 	Myoxidae	Myoxus glis	200	37.7	158
+Rodentia 	Myoxidae	Muscardenis avellanarius	23.5	35.8	63
+Rodentia 	Myoxidae	Graphiurus ocularis	67.8		66.4
+Rodentia 	Octodontidae	Aconaemys fuscus	112	37.3	121
+Rodentia 	Octodontidae	Octodon bridgesi	176.1		183.3
+Rodentia 	Octodontidae	Octodon degus	193	37.6	170.2
+Rodentia 	Octodontidae	Octodon lunatus	173.2		171.5
+Rodentia 	Octodontidae	Octodontomys gliroides	152	37.2	130.7
+Rodentia 	Octodontidae	Octomys mimax	118.6	36.7	115
+Rodentia 	Octodontidae	Spalacopus cyanus	135	36.5	106.8
+Rodentia 	Octodontidae	Tympanoctomys barrerae	71.4	35.7	77.1
+Rodentia 	Peditidae	Pedetes capensis	2300	35.9	793.5
+Rodentia 	Sciuridae	Ammospermophilus leucurus	95.7	37.5	93.9
+Rodentia 	Sciuridae	Cynomys ludovicanus	1112.3	36.7	422.7
+Rodentia 	Sciuridae	Epixerus wilsoni	460		241.5
+Rodentia 	Sciuridae	Funisciurus congicus	112.3	39.3	95.5
+Rodentia 	Sciuridae	Funisciurus isabella	60		102.1
+Rodentia 	Sciuridae	Funisciurus lemnisciatus	95		89.6
+Rodentia 	Sciuridae	Funisciurus pyrrhopus	244		181.3
+Rodentia 	Sciuridae	Glaucomys volans	64.25	39	67.5
+Rodentia 	Sciuridae	Heliosciurus rufobrachium	230		133.4
+Rodentia 	Sciuridae	Marmota flaviventris	4295	36.5	1546.2
+Rodentia 	Sciuridae	Marmota monax	2650	37	662.5
+Rodentia 	Sciuridae	Paraxerus cepapi	223.6	39.1	145.3
+Rodentia 	Sciuridae	Paraxerus palliatus ornatus	366.6	39.3	260.3
+Rodentia 	Sciuridae	Paraxerus palliatus tongensis	206	38.8	175.1
+Rodentia 	Sciuridae	Sciurus aberti	624	40.7	430.6
+Rodentia 	Sciuridae	Sciurus carolinensis	440	38.7	369.6
+Rodentia 	Sciuridae	Spermophilus armatus	320	35.7	147.2
+Rodentia 	Sciuridae	Spermophilus beecheyi	599.6	37.6	317.8
+Rodentia 	Sciuridae	Spermophilus beldingi	303	35.5	127.3
+Rodentia 	Sciuridae	Spermophilus citellus	240	37.5	228
+Rodentia 	Sciuridae	Spermophilus lateralis	237	36.3	143.4
+Rodentia 	Sciuridae	Spermophilus mohavensis	240	37	112.8
+Rodentia 	Sciuridae	Spermophilus parryi	650	37	520
+Rodentia 	Sciuridae	Spermophilus richardsoni	274	35.5	131.5
+Rodentia 	Sciuridae	Spermophilus satutatus	252.2		161.4
+Rodentia 	Sciuridae	Spermophilus spilosoma	174	36.1	92.2
+Rodentia 	Sciuridae	Spermophilus tereticaudus	167	36.3	93.5
+Rodentia 	Sciuridae	Spermophilus townsendii	229	35.6	105.3
+Rodentia 	Sciuridae	Spermophilus tridecemlineatus	205.4	35.7	140.4
+Rodentia 	Sciuridae	Spermophilus undulatus	680	38	667.1
+Rodentia 	Sciuridae	Tamias alpinus	39		57.7
+Rodentia 	Sciuridae	Tamias amoenus	57.1	37	96.3
+Rodentia 	Sciuridae	Tamias merriami	75	37	78.8
+Rodentia 	Sciuridae	Tamias minimus	45.8	37	72.7
+Rodentia 	Sciuridae	Tamias palmeri	69.4		113.1
+Rodentia 	Sciuridae	Tamias striatus	87.4	38.2	90
+Rodentia 	Sciuridae	Tamiasciurus hudsonicus	228.3	38.7	254.6
+Rodentia 	Sciuridae	Tamiasciurus hudsonicus preblei	202		323.2
+Rodentia 	Sciuridae	Xerus inauris	542	36.8	326.3
+Rodentia 	Sciuridae	Xerus princeps	602	37.6	340.1
+Scandentia 			123	36.8	96.95
+Scandentia 	Tupaiidae	Pltilocerus lowii	58	36.5	43.5
+Scandentia 	Tupaiidae	Tupaia glis	123	37	93.5
+Scandentia 	Tupaiidae	Urogale everetti	260.6		224.1
+Tublidentata					
+Tublidentata	Orycteropodidae	Orycteropus afer	48000	34.5	6144
+Xenarthra 			3679	33.6	670.39
+Xenarthra 	Bradypodidae	Bradypus variegatus	3790	33	686
+Xenarthra 	Dasypodidae	Cabassous centralis	4330	33.6	917
+Xenarthra 	Dasypodidae	Chaetophractus nationi	2150	35.5	559
+Xenarthra 	Dasypodidae	Chaetophractus vellerosus	1110	34.4	306
+Xenarthra 	Dasypodidae	Chaetophractus villosus	4540	35.1	808
+Xenarthra 	Dasypodidae	Dasypus novemcinctus	3510	34.5	865
+Xenarthra 	Dasypodidae	Euphractus sexcinctus	8190	34.2	1237
+Xenarthra 	Dasypodidae	Priodontes maximus	45190	33.6	3028
+Xenarthra 	Dasypodidae	Tolypeutes matacus	1160	33	210
+Xenarthra 	Dasypodidae	Zaedyus pichi	1740	35.2	393
+Xenarthra 	Megalonychidae	Choloepus hoffmanni	3770	34.4	603
+Xenarthra 	Myrmecophagidae	Cyclopes didactylus	240	33	114
+Xenarthra 	Myrmecophagidae	Myrmecophaga tridactyla	30600	32.5	2607
+Xenarthra 	Myrmecophagidae	Tamandua mexicana	3977	32	992
+Xenarthra 	Myrmecophagidae	Tamandua tetradactyla	3500	33.5	899
+Dasyuromorpha 			177.9	34	91.51
+Dasyuromorpha 	Dasyuridae	Antechinomys laniger	25.8	35.8	25.3
+Dasyuromorpha 	Dasyuridae	Antechinomys laniger ‘spenceri’	24.2		23.7
+Dasyuromorpha 	Dasyuridae	Antechinus flavipes	46.5	35	45.1
+Dasyuromorpha 	Dasyuridae	Antechinus stuartii	28.2	35.1	33.8
+Dasyuromorpha 	Dasyuridae	Antechinus swainsoni	66.9	36	63
+Dasyuromorpha 	Dasyuridae	Dasycercus cristicaudata	101	36.9	51
+Dasyuromorpha 	Dasyuridae	Dasyuroides byrnei	91.7	35.2	71.7
+Dasyuromorpha 	Dasyuridae	Dasyurus geoffroyi	1354	36.2	568.7
+Dasyuromorpha 	Dasyuridae	Dasyurus hallucatus	558	35.9	243
+Dasyuromorpha 	Dasyuridae	Dasyurus maculatus	1782	36.9	588.1
+Dasyuromorpha 	Dasyuridae	Dasyurus viverrinus	982	35.9	396.2
+Dasyuromorpha 	Dasyuridae	Ningaui yvonnae	11.6	34.4	15.7
+Dasyuromorpha 	Dasyuridae	Phascogale tapoatafa	157	37.4	127.2
+Dasyuromorpha 	Dasyuridae	Planigale gilesi	9.1	35.1	7
+Dasyuromorpha 	Dasyuridae	Planigale ingrami	7.1		11.3
+Dasyuromorpha 	Dasyuridae	Planigale maculata	10.8	34.5	12
+Dasyuromorpha 	Dasyuridae	Planigale tenuirostris	7.1	34.5	11.3
+Dasyuromorpha 	Dasyuridae	Pseudantechinus macdonnellensis	43.1	34.2	27.2
+Dasyuromorpha 	Dasyuridae	Sarcophilus harrisii	5775	35.8	1325.4
+Dasyuromorpha 	Dasyuridae	Sminthopsis crassicaudata	16.4	35.2	25.1
+Dasyuromorpha 	Dasyuridae	Sminthopsis macroura	19.35	33.3	22.5
+Dasyuromorpha 	Dasyuridae	Sminthopsis murina	19	35	21.5
+Dasyuromorpha 	Myrmecobiidae	Myrmecobius fasciatus	400	32.5	142.4
+Didelphimorphia 			300.1	34.9	191.37
+Didelphimorphia 	Caluromyidae	Caluromys derbianus	329	35	225
+Didelphimorphia 	Didelphidae	Chironectes minimus	935	35	457
+Didelphimorphia 	Didelphidae	Didelphis marsupialis	1165	35	571
+Didelphimorphia 	Didelphidae	Didelphis virginiana	2488	35	832
+Didelphimorphia 	Didelphidae	Lutreolina crassicaudata	812	35.8	406
+Didelphimorphia 	Didelphidae	Philander opossum	751	35.8	338
+Didelphimorphia 	Marmosidae	Gracilinanus microtarsus	13	35	19
+Didelphimorphia 	Marmosidae	Marmosa robinsoni	122	34	98
+Didelphimorphia 	Marmosidae	Metachirus nudicaudatus	336	35	205
+Didelphimorphia 	Marmosidae	Monodelphis brevicaudata	75.5	33.7	57
+Didelphimorphia 	Marmosidae	Monodelphis domestica	104	32.6	60
+Diprotodontia 			544.1	35.8	265.06
+Diprotodontia 	Acrobatidae	Acrobates pygmaeus	14	34.7	15.1
+Diprotodontia 	Burramyidae	Burramys parvus	44.3	36.1	36.8
+Diprotodontia 	Burramyidae	Cercartetus conncinnus	18.6	34.4	22.3
+Diprotodontia 	Burramyidae	Cercartetus lepidus	12.6	33.7	18.8
+Diprotodontia 	Burramyidae	Cercartetus nanus	70	35.6	60.2
+Diprotodontia 	Macropodidae	Dendrolagus matschiei	6960	36.3	1426.8
+Diprotodontia 	Macropodidae	Lagorchestes conspicillatus	2660	36	851.2
+Diprotodontia 	Macropodidae	Macropus eugenii	4878	36.5	1390.2
+Diprotodontia 	Macropodidae	Macropus robustus	29300	36.1	5684.2
+Diprotodontia 	Macropodidae	Macropus rufus	32490	35.9	5848.2
+Diprotodontia 	Macropodidae	Setonyx brachyurus	2674	36.3	834.3
+Diprotodontia 	Petauridae	Petaurus breviceps	127	35.9	89.9
+Diprotodontia 	Petauridae	Gymnobelideus leadbeateri	166		102.9
+Diprotodontia 	Phalangeridae	Spilocuscus maculatus	4250	34.7	1143.3
+Diprotodontia 	Phalangeridae	Trichosurus vulpecula	2005	36	731.6
+Diprotodontia 	Phascolarctidae	Phascolarctos cinereus	4765	35.8	1034
+Diprotodontia 	Potoroidae	Bettongia gaimardi	1385	35.6	641.3
+Diprotodontia 	Potoroidae	Bettongia penicillata	1018	37.2	561.4
+Diprotodontia 	Potoroidae	Potorous tridactylus	976	35.9	416.4
+Diprotodontia 	Potoroidae	Aepyprimnus rufescens	2820	36.5	1071.6
+Diprotodontia 	Pseudocheiridae	Petauroides volans	1141	35.4	573.9
+Diprotodontia 	Pseudocheiridae	Pseudocheirus occidentalis	861	36.5	409
+Diprotodontia 	Pseudocheiridae	Pseudocheirus peregrinus	916	37.4	430.5
+Diprotodontia 	Tarsipedidae	Tarsipes rostratus	10	36.6	29
+Diprotodontia 	Vombatidae	Lasiorhinus latifrons	29917	35.3	2991.7
+Notoryctemorphia					
+Notoryctemorphia	Notoryctidae	Notoryctes caurinus	34	30.8	21.4
+Peramelemorphia 			860.3	35	366.82
+Peramelemorphia 	Peroryctidae	Echymipera kalabu	695	35	341
+Peramelemorphia 	Peroryctidae	Echymipera rufescens australis	616	34.6	302
+Peramelemorphia 	Peroryctidae	Echymipera rufescens rufescens	1276	35.2	541
+Peramelemorphia 	Peramelidae	Isoodon auratus	428	33.8	150
+Peramelemorphia 	Peramelidae	Isoodon macrourus	1551	35.9	574
+Peramelemorphia 	Peramelidae	Isoodon obesulus	717	33.9	222
+Peramelemorphia 	Peramelidae	Macrotis lagotis	1294	35	450
+Peramelemorphia 	Peramelidae	Perameles gunni	837	35.2	420
+Peramelemorphia 	Peramelidae	Perameles nasuta	645	36.1	316
+Monotremata 			1982.6	32.3	386.1
+Monotremata 	Ornithorhynchidae	Ornithorhynchus anatinus	693	34	194
+Monotremata 	Tachyglossidae	Zaglossus bruijni	10300	30.8	1215
+Monotremata 	Tachyglossidae	Tachyglossus aculeatus	2725	30.7	431
+Monotremata 	Tachyglossidae	Tachyglossus setosus	3580	30	548

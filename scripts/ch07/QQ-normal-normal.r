@@ -1,0 +1,6 @@
+rm(list = ls())
+par(mfrow = c(1, 2))
+set.seed(1) ; x <- rnorm(101, .5, .15)
+h(x, xlab = 'x') ; y <- seq(0, 1, length = 101)
+lines(y, dnorm(y, .5, .15), type = 'l')
+qqnorm(x, main='') ; qqline(x)

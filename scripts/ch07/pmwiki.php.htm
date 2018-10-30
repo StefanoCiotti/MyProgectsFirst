@@ -1,0 +1,240 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+
+
+	<title>Turtle | StatisticsandDatawithR / TheNormalAndSamplingDensities browse</title>
+<!--HeaderText--><style type="text/css"><!--
+  ul, ol, pre, dl, p { margin-top:0px; margin-bottom:0px; }
+  code.escaped { white-space: nowrap; }
+  .vspace { margin-top:1.33em; }
+  .indent { margin-left:40px; }
+  .outdent { margin-left:40px; text-indent:-40px; }
+  a.createlinktext { text-decoration:none; border-bottom:1px dotted gray; }
+  a.createlink { text-decoration:none; position:relative; top:-0.5em;
+    font-weight:bold; font-size:smaller; border-bottom:none; }
+  img { border:0px; }
+  .apprlink { font-size:smaller; }.editconflict { color:green; 
+  font-style:italic; margin-top:1.33em; margin-bottom:1.33em; }
+
+  table.markup { border:2px dotted #ccf; width:90%; }
+  td.markup1, td.markup2 { padding-left:10px; padding-right:10px; }
+  table.vert td.markup1 { border-bottom:1px solid #ccf; }
+  table.horiz td.markup1 { width:23em; border-right:1px solid #ccf; }
+  table.markup caption { text-align:left; }
+  div.faq p, div.faq pre { margin-left:2em; }
+  div.faq p.question { margin:1em 0 0.75em 0; font-weight:bold; }
+  div.faqtoc div.faq * { display:none; }
+  div.faqtoc div.faq p.question 
+    { display:block; font-weight:normal; margin:0.5em 0 0.5em 20px; line-height:normal; }
+  div.faqtoc div.faq p.question * { display:inline; }
+   
+    .frame 
+      { border:1px solid #cccccc; padding:4px; background-color:#f9f9f9; }
+    .lfloat { float:left; margin-right:0.5em; }
+    .rfloat { float:right; margin-left:0.5em; }
+a.varlink { text-decoration:none; }
+
+--></style><link rel="stylesheet" href="pmwiki.php_files/wikilog.css" type="text/css"><link href="http://turtle.gis.umn.edu/pmwiki/pub/turtle.png" type="image/png" rel="icon">
+  <link href="http://turtle.gis.umn.edu/pmwiki/pub/turtle.ico" type="image/x-icon" rel="shortcut icon">  <meta name="robots" content="index,follow">
+<link rel="stylesheet" href="pmwiki.php_files/dropdown.css" type="text/css">
+<!--[if IE]><style type="text/css" media="screen">body{behavior:url(http://turtle.gis.umn.edu/pmwiki/pub/skins/dropdown/csshover.htc);}</style><![endif]-->
+<link rel="stylesheet" href="pmwiki.php_files/dropdownmenuv1.css" type="text/css">
+<link rel="stylesheet" href="pmwiki.php_files/dropdownmenuv3.css" type="text/css">
+
+	<style type="text/css">
+	<!--
+		/* makes tabs work */
+		#tabs #browse {
+			border-bottom:1px solid #fff;
+			background:#fff;
+			}
+		#tabs #browse a:hover {
+			color:#bb0;
+			}
+	-->
+	</style>
+
+
+			<script language="javascript" src="pmwiki.php_files/js.js"></script>
+
+</head><body>
+	<a name="Topp">&nbsp;</a>
+<!--PageLeftFmt-->
+	<div id="left">
+		<div id="logo">
+			<a href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php"><img src="pmwiki.php_files/turtle.htm" alt="Turtle" border="0"></a>
+		</div>
+
+		<div id="sidebar">
+<ol><li><span class="menutitle"> <a class="wikilink" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=Site.SideBar">Go to...</a></span>
+<ol><li><a class="wikilink" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=Main.HomePage">Turtle's home page</a>
+</li><li><a class="wikilink" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.HomePage">Stats and Data with R</a>
+</li><li><a class="wikilink" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=FW4001.HomePage">Biometry</a>
+</li><li><a class="wikilink" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=FW8450.HomePage">Data Analysis</a>
+</li><li>Further information
+<ol><li><a target="_blank" class="urllink" href="https://wiki.umn.edu/view/Main/YosefCohen" rel="nofollow">C.V., etc.</a>
+</li><li><a target="_blank" class="urllink" href="http://turtle.gis.umn.edu/wwwroot/turtle/people/yc/foul/foul/index.html" rel="nofollow">System dynamics</a>
+</li><li><a target="_blank" class="urllink" href="http://turtle.gis.umn.edu/wwwroot/turtle/people/yc/js_book/toc.html" rel="nofollow">JavaScript</a>
+</li><li><a target="_blank" class="urllink" href="http://turtle.gis.umn.edu/wwwroot/turtle/people/yc/sinai/pictures.html" rel="nofollow">Sinai</a>
+</li><li><a target="_blank" class="urllink" href="http://turtle.gis.umn.edu/wwwroot/turtle/people/yc/learn.java.html" rel="nofollow">Java/JavasScript course</a>
+</li><li><a target="_blank" class="urllink" href="http://turtle.gis.umn.edu/wwwroot/turtle/people/yc/learn.c.c++.html" rel="nofollow">C/C++ course</a>
+</li><li><a target="_blank" class="urllink" href="http://turtle.gis.umn.edu/wwwroot/courses/CostaRica/natural_history_of_costa_rica.htm" rel="nofollow">Costa Rica</a>
+</li></ol></li></ol></li></ol><div class="vspace"></div><hr>
+<ol><li><span class="menutitle"> <a class="wikilink" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=PmWiki.PmWiki">PmWiki...</a></span>
+<ol><li><a class="wikilink" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=Main.WikiSandbox">WikiSandbox</a>
+</li><li><a class="wikilink" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=PmWiki.BasicEditing">Basic Editing</a>
+</li><li><a class="wikilink" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=PmWiki.DocumentationIndex">Documentation Index</a>
+</li><li><a class="urllink" href="http://www.pmwiki.org/wiki/Cookbook/CookbookBasics" rel="nofollow">Cookbook (addons)</a>
+</li><li><a class="wikilink" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=Main.InstallationProblems">installation problems</a>
+</li></ol></li></ol><div class="vspace"></div><hr>
+<div class="vspace"></div><hr>
+<p><strong>contact</strong>: <a class="urllink" href="mailto:yc@umn.edu" rel="nofollow">yc@umn.edu</a>
+</p><hr>
+<p class="vspace"><br><br>
+ <strong>Part I Data in statistics and R</strong>
+</p><ul><li>1. <a class="wikilink" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.BasicR">Basic R</a>
+</li><li>2. <a class="wikilink" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.DataInStatisticsAndInR">Data in statistics and in R</a>
+</li><li>3. <a class="wikilink" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.PresentingData">Presenting data</a>
+</li></ul><hr>
+<p class="sidehead"> <strong>Part II Probability, densities and distributions</strong>
+</p><ul><li value="4">4. <a class="wikilink" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.ProbabilityAndRandomVariables">Probability and random variables</a>
+</li><li>5. <a class="wikilink" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.DiscreteDensitiesAndDistributions">Discrete densities and distributions</a>
+</li><li>6. <a class="wikilink" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.ContinuousDistributionsAndDensities">Continuous distributions and densities</a>
+</li><li>7. <a class="selflink" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.TheNormalAndSamplingDensities">The normal and sampling densities</a>
+</li></ul><p class="vspace sidehead"> <strong>Part III Statistics</strong>
+</p><ul><li value="8">8. <a class="wikilink" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.ExploratoryDataAnalysis">Exploratory data analysis</a>
+</li><li>9. <a class="wikilink" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.PointAndIntervalEstimation">Point and interval estimation</a>
+</li><li>10. <a class="wikilink" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.SingleSampleHypothesesTesting">Single sample hypotheses testing</a>
+</li><li>11. <a class="wikilink" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.PowerAndSampleSizeForSingleSamples">Power and sample size for single samples</a>
+</li><li>12. <a class="wikilink" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.TwoSamples">Two samples</a>
+</li><li>13. <a class="wikilink" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.PowerAndSampleSizeForTwoSamples">Power and sample size for two samples</a>
+</li><li>14. <a class="wikilink" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.SimpleLinearRegression">Simple linear regression</a>
+</li><li>15. <a class="wikilink" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.AnalysisOfVariance">Analysis of variance</a>
+</li><li>16. <a class="wikilink" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.SimpleLogisticRegression">Simple logistic regression</a>
+</li><li>17. <a class="wikilink" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.ApplicationTheShapeOfWarsToCome">Application: the shape of wars to come</a>
+</li></ul><div class="vspace"></div><hr>
+<p class="vspace"><br><br>
+</p><p class="datetrail">« <a class="wikilink" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.TheNormalAndSamplingDensities?logdate=200911">November 2009 period</a> · <a class="wikilink" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.TheNormalAndSamplingDensities?logdate=201001">January 2010 period</a> »</p>
+<div id="wikilog"><table class="calendar-outer"><tbody><tr>
+<td class="calendar-outer"><table class="calendar-inner"><caption>December 2009</caption><tbody><tr><th>Sun</th><th>Mon</th><th>Tue</th><th>Wed</th><th>Thu</th><th>Fri</th><th>Sat</th></tr><tr><td class="calendar-blank">&nbsp;</td><td class="calendar-blank">&nbsp;</td><td class="calendar-noentry"><a class="nonexistent-date" rel="nofollow" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.20091201?action=edit">01</a></td><td class="calendar-noentry"><a class="nonexistent-date" rel="nofollow" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.20091202?action=edit">02</a></td><td class="calendar-noentry"><a class="nonexistent-date" rel="nofollow" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.20091203?action=edit">03</a></td><td class="calendar-noentry"><a class="nonexistent-date" rel="nofollow" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.20091204?action=edit">04</a></td><td class="calendar-noentry"><a class="nonexistent-date" rel="nofollow" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.20091205?action=edit">05</a></td></tr><tr><td class="calendar-noentry"><a class="nonexistent-date" rel="nofollow" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.20091206?action=edit">06</a></td><td class="calendar-noentry"><a class="nonexistent-date" rel="nofollow" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.20091207?action=edit">07</a></td><td class="calendar-noentry"><a class="nonexistent-date" rel="nofollow" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.20091208?action=edit">08</a></td><td class="calendar-noentry"><a class="nonexistent-date" rel="nofollow" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.20091209?action=edit">09</a></td><td class="calendar-noentry"><a class="nonexistent-date" rel="nofollow" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.20091210?action=edit">10</a></td><td class="calendar-noentry"><a class="nonexistent-date" rel="nofollow" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.20091211?action=edit">11</a></td><td class="calendar-noentry"><a class="nonexistent-date" rel="nofollow" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.20091212?action=edit">12</a></td></tr><tr><td class="calendar-noentry"><a class="nonexistent-date" rel="nofollow" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.20091213?action=edit">13</a></td><td class="calendar-noentry"><a class="nonexistent-date" rel="nofollow" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.20091214?action=edit">14</a></td><td class="calendar-noentry"><a class="nonexistent-date" rel="nofollow" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.20091215?action=edit">15</a></td><td class="calendar-noentry"><a class="nonexistent-date" rel="nofollow" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.20091216?action=edit">16</a></td><td class="calendar-noentry"><a class="nonexistent-date" rel="nofollow" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.20091217?action=edit">17</a></td><td class="calendar-noentry"><a class="nonexistent-date" rel="nofollow" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.20091218?action=edit">18</a></td><td class="calendar-noentry"><a class="nonexistent-date" rel="nofollow" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.20091219?action=edit">19</a></td></tr><tr><td class="calendar-noentry"><a class="nonexistent-date" rel="nofollow" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.20091220?action=edit">20</a></td><td class="calendar-noentry"><a class="nonexistent-date" rel="nofollow" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.20091221?action=edit">21</a></td><td class="calendar-noentry"><a class="nonexistent-date" rel="nofollow" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.20091222?action=edit">22</a></td><td class="calendar-noentry"><a class="nonexistent-date" rel="nofollow" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.20091223?action=edit">23</a></td><td class="calendar-noentry"><a class="nonexistent-date" rel="nofollow" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.20091224?action=edit">24</a></td><td class="calendar-noentry"><a class="nonexistent-date" rel="nofollow" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.20091225?action=edit">25</a></td><td class="calendar-today-noentry"><a class="nonexistent-date" rel="nofollow" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.20091226?action=edit">26</a></td></tr><tr><td class="calendar-noentry"><a class="nonexistent-date" rel="nofollow" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.20091227?action=edit">27</a></td><td class="calendar-noentry"><a class="nonexistent-date" rel="nofollow" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.20091228?action=edit">28</a></td><td class="calendar-noentry"><a class="nonexistent-date" rel="nofollow" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.20091229?action=edit">29</a></td><td class="calendar-noentry"><a class="nonexistent-date" rel="nofollow" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.20091230?action=edit">30</a></td><td class="calendar-noentry"><a class="nonexistent-date" rel="nofollow" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.20091231?action=edit">31</a></td><td class="calendar-blank">&nbsp;</td><td class="calendar-blank">&nbsp;</td></tr></tbody></table>
+</td></tr></tbody></table></div><p class="vspace wikiloghome"><a class="wikilink" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.HomePage">Calendar</a>:</p><ul class="loglist"><li>No entries for December 2009.</li></ul>
+<div class="vspace"></div>
+
+		</div>
+	</div>
+<!--/PageLeftFmt-->
+	<div id="right">
+<!--PageMenuFmt-->
+		<div id="menubar">
+ <form class="wikisearch" action="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.TheNormalAndSamplingDensities" method="get"><input name="n" value="StatisticsandDatawithR.TheNormalAndSamplingDensities" type="hidden"><input name="action" value="search" type="hidden"><input name="q" class="inputbox searchbox" size="25" type="text"><input class="inputbutton searchbutton" value="Search" type="submit"></form>
+
+		</div>
+<!--/PageMenuFmt-->
+		<div id="main">
+<!--PageTitleFmt--><!--/PageTitleFmt-->
+<!--PageHeaderFmt--><!--/PageHeaderFmt-->
+<div id="print"><a href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.TheNormalAndSamplingDensities?action=print" target="_blank">Printable View</a></div>
+<!--PageText-->
+<div id="wikitext">
+<div class="vspace"></div><h2>Chapter 7. The normal and sampling densities </h2>
+<h3>Scripts: </h3>
+<ul><li><a class="urllink" href="http://turtle.gis.umn.edu/pmwiki/uploads/StatisticsandDatawithR/areas-under-the-normal.r" rel="nofollow">areas-under-the-normal.R</a> (add comments, etc. <a class="wikilink" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.Areas-under-the-normal-comments">here</a>) 
+<div class="vspace"></div></li><li><a class="urllink" href="http://turtle.gis.umn.edu/pmwiki/uploads/StatisticsandDatawithR/cardiac.r" rel="nofollow">cardiac.R</a> (add comments, etc. <a class="wikilink" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.Cardiac-comments">here</a>) 
+<div class="vspace"></div></li><li><a class="urllink" href="http://turtle.gis.umn.edu/pmwiki/uploads/StatisticsandDatawithR/compare-normals.r" rel="nofollow">compare-normals.R</a> (add comments, etc. <a class="wikilink" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.Compare-normals-comments">here</a>) 
+<div class="vspace"></div></li><li><a class="urllink" href="http://turtle.gis.umn.edu/pmwiki/uploads/StatisticsandDatawithR/data-transformations.r" rel="nofollow">data-transformations.R</a> (add comments, etc. <a class="wikilink" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.Data-transformations-comments">here</a>) 
+<div class="vspace"></div></li><li><a class="urllink" href="http://turtle.gis.umn.edu/pmwiki/uploads/StatisticsandDatawithR/excercise-sampling-distribution.r" rel="nofollow">excercise-sampling-distribution.R</a> (add comments, etc. <a class="wikilink" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.Excercise-sampling-distribution-comments">here</a>) 
+<div class="vspace"></div></li><li><a class="urllink" href="http://turtle.gis.umn.edu/pmwiki/uploads/StatisticsandDatawithR/excercise-stiatistics-of-sampling-distribution.r" rel="nofollow">excercise-stiatistics-of-sampling-distribution.R</a> (add comments, etc. <a class="wikilink" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.Excercise-stiatistics-of-sampling-distribution-comments">here</a>) 
+<div class="vspace"></div></li><li><a class="urllink" href="http://turtle.gis.umn.edu/pmwiki/uploads/StatisticsandDatawithR/excercise-transformation.r" rel="nofollow">excercise-transformation.R</a> (add comments, etc. <a class="wikilink" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.Excercise-transformation-comments">here</a>) 
+<div class="vspace"></div></li><li><a class="urllink" href="http://turtle.gis.umn.edu/pmwiki/uploads/StatisticsandDatawithR/exercise-brown-bat.r" rel="nofollow">exercise-brown-bat.R</a> (add comments, etc. <a class="wikilink" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.Exercise-brown-bat-comments">here</a>) 
+<div class="vspace"></div></li><li><a class="urllink" href="http://turtle.gis.umn.edu/pmwiki/uploads/StatisticsandDatawithR/exercise-normal.r" rel="nofollow">exercise-normal.R</a> (add comments, etc. <a class="wikilink" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.Exercise-normal-comments">here</a>) 
+<div class="vspace"></div></li><li><a class="urllink" href="http://turtle.gis.umn.edu/pmwiki/uploads/StatisticsandDatawithR/expectation-variance-normal.r" rel="nofollow">expectation-variance-normal.R</a> (add comments, etc. <a class="wikilink" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.Expectation-variance-normal-comments">here</a>) 
+<div class="vspace"></div></li><li><a class="urllink" href="http://turtle.gis.umn.edu/pmwiki/uploads/StatisticsandDatawithR/kruger.r" rel="nofollow">kruger.R</a> (add comments, etc. <a class="wikilink" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.Kruger-comments">here</a>) 
+<div class="vspace"></div></li><li><a class="urllink" href="http://turtle.gis.umn.edu/pmwiki/uploads/StatisticsandDatawithR/midterm-K-S-test.r" rel="nofollow">midterm-K-S-test.R</a> (add comments, etc. <a class="wikilink" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.Midterm-K-S-test-comments">here</a>) 
+<div class="vspace"></div></li><li><a class="urllink" href="http://turtle.gis.umn.edu/pmwiki/uploads/StatisticsandDatawithR/normal-binomial-approximation.r" rel="nofollow">normal-binomial-approximation.R</a> (add comments, etc. <a class="wikilink" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.Normal-binomial-approximation-comments">here</a>) 
+<div class="vspace"></div></li><li><a class="urllink" href="http://turtle.gis.umn.edu/pmwiki/uploads/StatisticsandDatawithR/normal-discrete-approximation.r" rel="nofollow">normal-discrete-approximation.R</a> (add comments, etc. <a class="wikilink" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.Normal-discrete-approximation-comments">here</a>) 
+<div class="vspace"></div></li><li><a class="urllink" href="http://turtle.gis.umn.edu/pmwiki/uploads/StatisticsandDatawithR/normal-Poisson-approximation.r" rel="nofollow">normal-Poisson-approximation.R</a> (add comments, etc. <a class="wikilink" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.Normal-Poisson-approximation-comments">here</a>) 
+<div class="vspace"></div></li><li><a class="urllink" href="http://turtle.gis.umn.edu/pmwiki/uploads/StatisticsandDatawithR/normal-scores.r" rel="nofollow">normal-scores.R</a> (add comments, etc. <a class="wikilink" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.Normal-scores-comments">here</a>) 
+<div class="vspace"></div></li><li><a class="urllink" href="http://turtle.gis.umn.edu/pmwiki/uploads/StatisticsandDatawithR/normal.r" rel="nofollow">normal.R</a> (add comments, etc. <a class="wikilink" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.Normal-comments">here</a>) 
+<div class="vspace"></div></li><li><a class="urllink" href="http://turtle.gis.umn.edu/pmwiki/uploads/StatisticsandDatawithR/QQ-normal-beta-centered.r" rel="nofollow">QQ-normal-beta-centered.R</a> (add comments, etc. <a class="wikilink" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.QQ-normal-beta-centered-comments">here</a>) 
+<div class="vspace"></div></li><li><a class="urllink" href="http://turtle.gis.umn.edu/pmwiki/uploads/StatisticsandDatawithR/QQ-normal-beta-left.r" rel="nofollow">QQ-normal-beta-left.R</a> (add comments, etc. <a class="wikilink" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.QQ-normal-beta-left-comments">here</a>) 
+<div class="vspace"></div></li><li><a class="urllink" href="http://turtle.gis.umn.edu/pmwiki/uploads/StatisticsandDatawithR/QQ-normal-beta-right.r" rel="nofollow">QQ-normal-beta-right.R</a> (add comments, etc. <a class="wikilink" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.QQ-normal-beta-right-comments">here</a>) 
+<div class="vspace"></div></li><li><a class="urllink" href="http://turtle.gis.umn.edu/pmwiki/uploads/StatisticsandDatawithR/QQ-normal-normal.r" rel="nofollow">QQ-normal-normal.R</a> (add comments, etc. <a class="wikilink" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.QQ-normal-normal-comments">here</a>) 
+<div class="vspace"></div></li><li><a class="urllink" href="http://turtle.gis.umn.edu/pmwiki/uploads/StatisticsandDatawithR/sampling-density-intensity-murders-south.r" rel="nofollow">sampling-density-intensity-murders-south.R</a> (add comments, etc. <a class="wikilink" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.Sampling-density-intensity-murders-south-comments">here</a>) 
+<div class="vspace"></div></li><li><a class="urllink" href="http://turtle.gis.umn.edu/pmwiki/uploads/StatisticsandDatawithR/sampling-density-of-mean-Iraq.r" rel="nofollow">sampling-density-of-mean-Iraq.R</a> (add comments, etc. <a class="wikilink" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.Sampling-density-of-mean-Iraq-comments">here</a>) 
+<div class="vspace"></div></li><li><a class="urllink" href="http://turtle.gis.umn.edu/pmwiki/uploads/StatisticsandDatawithR/sampling-density-of-proportion-West-Bank.r" rel="nofollow">sampling-density-of-proportion-West-Bank.R</a> (add comments, etc. <a class="wikilink" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.Sampling-density-of-proportion-West-Bank-comments">here</a>) 
+<div class="vspace"></div></li><li><a class="urllink" href="http://turtle.gis.umn.edu/pmwiki/uploads/StatisticsandDatawithR/sampling-density-of-variance.r" rel="nofollow">sampling-density-of-variance.R</a> (add comments, etc. <a class="wikilink" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.Sampling-density-of-variance-comments">here</a>) 
+</li></ul><div class="vspace"></div><h3>Data: </h3>
+<ul><li><a class="urllink" href="http://turtle.gis.umn.edu/pmwiki/uploads/StatisticsandDatawithR/cardiac.dta" rel="nofollow">cardiac.dta</a> 
+<div class="vspace"></div></li><li><a class="urllink" href="http://turtle.gis.umn.edu/pmwiki/uploads/StatisticsandDatawithR/casualties.rda" rel="nofollow">casualties.rda</a> 
+<div class="vspace"></div></li><li><a class="urllink" href="http://turtle.gis.umn.edu/pmwiki/uploads/StatisticsandDatawithR/midterm.rda" rel="nofollow">midterm.rda</a> 
+</li></ul><div class="vspace"></div><h3>Chapter comments</h3>
+<p>If you wish to comment about the book in general,
+click <a class="wikilink" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=StatisticsandDatawithR.StatisticsandDatawithR-comments"><strong>here</strong></a>. 
+</p>
+<p class="vspace">If you wish to comment about this chapter...
+</p>
+<p class="vspace">Entries are sorted from most to least recent. 
+</p>
+<p class="vspace">(:commentboxchrono:) 
+</p>
+<p class="vspace"><br><br><br><br>
+</p>
+<p class="vspace"><a name="comment1" id="comment1"></a>
+</p><div class="messagehead"> 
+<h5><a class="createlinktext" rel="nofollow" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=Profiles.LjrqxktncKxnpm?action=edit">ljrqxktnc kxnpm</a><a rel="nofollow" class="createlink" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=Profiles.LjrqxktncKxnpm?action=edit">?</a>  &#8212;  <span style="font-size: 83%;">27 August 2008, 08:44</span>  </h5>
+</div><div class="messageitem"> 
+<p>eqos ughmc yepz wrgp digtu nybi oyflcq
+</p></div>
+<p class="vspace"><a name="comment2" id="comment2"></a>
+</p><div class="messagehead"> 
+<h5><a class="wikilink" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=Profiles.DouglasBates">Douglas Bates</a>  &#8212;  <span style="font-size: 83%;">20 December 2008, 14:17</span>  </h5>
+</div><div class="messageitem"> 
+<p>I was unable to add a comment to the sampling-density-of-variance.R script discussion so I will add it here.
+</p>
+<p class="vspace">As I mentioned to Yosef, the fact that the first loop
+is slower than the others is almost entirely due to the vector v being
+initialized to a vector of length zero. If you replace the function
+s.loop with </p>
+<p class="vspace">s.loop1 &lt;- function(R, n){
+  set.seed(10)
+  v &lt;- numeric(R)
+  for(i in 1 : R) v[i] &lt;- var(rexp(n))
+  v
+}
+</p>
+<p class="vspace">you will find that its speed is competitive with the others.  The idiom that I prefer to teach is
+</p>
+<p class="vspace">set.seed(10)
+v &lt;- replicate(R, var(rexp(n)))
+</p>
+<p class="vspace">It is also competitive in speed and I think it is more intuitive.
+</p></div>
+<p class="vspace"><a name="comment3" id="comment3"></a>
+</p><div class="messagehead"> 
+<h5><a class="wikilink" href="http://turtle.gis.umn.edu/pmwiki/pmwiki.php?n=Profiles.DouglasBates">Douglas Bates</a>  &#8212;  <span style="font-size: 83%;">20 December 2008, 14:19</span>  </h5>
+</div><div class="messageitem"> 
+<p>I keep forgetting that this Wiki doesn't maintain line breaks.  Without line breaks those samples of code should be
+</p>
+<p class="vspace">s.loop1 &lt;- function(R, n){set.seed(10); v &lt;- numeric(R); for(i in 1 : R) v[i] &lt;- var(rexp(n)); v} 
+</p>
+<p class="vspace">and
+</p>
+<p class="vspace">set.seed(10); v &lt;- replicate(R, var(rexp(n))) 
+</p></div>
+<div class="vspace"></div>
+</div>
+
+			<div class="lastmod">
+				Page last modified on December 20, 2008, at 02:19 PM
+			</div>
+		</div>
+<!--PageFooterFmt-->
+		<div id="foot">
+
+
+		</div>
+	</div>
+<!--/PageFooterFmt-->
+<script language="javascript">postamble();</script>
+</body></html>

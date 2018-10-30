@@ -1,0 +1,1 @@
+no.dimnames(t(combn(c('F','M','F','M'),2)))

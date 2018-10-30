@@ -1,0 +1,5 @@
+set.seed(1)
+x <- rexp(100, 1 / 5)
+windows(width = 3, height = 3, pointsize = 8)
+hist(x, ylab = 'frequency', main = '', col = 'grey90')
+mean(x) ; sd(x)

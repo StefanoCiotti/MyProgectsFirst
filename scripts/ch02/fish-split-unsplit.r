@@ -1,0 +1,5 @@
+rm(list = ls())
+load('fishA.rda')
+f.s <- split(fishA, fishA$CODE)
+(is.list(f.s))
+(names(f.s))

@@ -1,0 +1,5 @@
+set.seed(1)
+fertilized <- as.integer(rnorm(25, 12, 2))
+not.fertilized <- as.integer(rnorm(25, 14, 2))
+t.test(fertilized, not.fertilized, paired = TRUE)
+t.test(fertilized, not.fertilized)
